@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <img src={logo} alt="PowerFit Center Logo" style={{ height: '160px', objectFit: 'contain' }} />
+          <img src={logo} alt="PowerFit Center Logo" className="logo-img" />
         </Link>
         
         <div className="mobile-toggle" onClick={toggleMenu}>
