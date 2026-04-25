@@ -1,0 +1,81 @@
+.pago-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.pago-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--surface-color);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  border-top: 4px solid var(--accent-color);
+  text-align: center;
+}
+
+.pago-header {
+  margin-bottom: 32px;
+}
+
+.pago-header .mb-4 {
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.pago-info {
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.pago-info h3 {
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.pago-info p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.pago-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pago-benefits li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.pago-link {
+  display: block;
+  text-decoration: none;
+}
+
+.pago-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  padding: 16px;
+}
+
+.pago-footer-text {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .pago-container {
+    padding: 24px;
+  }
+}
